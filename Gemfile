@@ -1,4 +1,6 @@
 source "http://rubygems.org"
+
+gemspec :name => "capri"
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
@@ -12,3 +14,8 @@ group :development do
   gem "jeweler", "~> 1.8.3"
   gem "rcov", ">= 0"
 end
+
+gem 'sinatra'
+gem 'haml'
+gem 'rack'
+gem 'nokogiri'
